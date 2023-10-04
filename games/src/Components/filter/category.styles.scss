@@ -1,0 +1,27 @@
+body {
+  background-color: #141414;
+}
+
+.btn_category {
+  font-family: Nunito;
+  border: none;
+  color: white;
+  cursor: pointer;
+  padding: 0 20px 0 20px;
+  margin: 0 5px 0 5px;
+  border-radius: 10px;
+  height: 35px;
+  background: #292929;
+  transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+  &:hover {
+    background-color: white;
+    color: black;
+  }
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  align-items: center;
+}
